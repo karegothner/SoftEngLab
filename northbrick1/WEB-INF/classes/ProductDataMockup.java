@@ -14,6 +14,12 @@ public class ProductDataMockup {
         this.companyName = companyName;
         this.unitPrice = unitPrice;
     }
+    
+    ProductDataMockup (int productId, String productName, int supplierId) {
+        this.productId    = productId;
+        this.productName  = productName;
+        this.supplierId   = supplierId;
+    }
     public static Vector<ProductDataMockup> getProductList() {
         Vector<ProductDataMockup> vec = new Vector<ProductDataMockup>();
         vec.addElement(new ProductDataMockup(1, "Homemaker Bookcase 2 x 4 x 4", 1, "Brick Manufactures, Co.", 0.0337f));
