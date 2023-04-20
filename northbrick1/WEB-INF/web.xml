@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+    <servlet>
+        <servlet-name>ProductListMockup</servlet-name>
+        <servlet-class>ProductListMockup</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ProductListMockup</servlet-name>
+        <url-pattern>/ProductListMockup</url-pattern>
+    </servlet-mapping>
+
+</web-app>
