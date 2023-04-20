@@ -14,6 +14,8 @@ public class ProductDataMockup {
         this.companyName = companyName;
         this.unitPrice = unitPrice;
     }
+
+    
     
     public static Vector<ProductDataMockup> getProductList() {
         Vector<ProductDataMockup> vec = new Vector<ProductDataMockup>();
